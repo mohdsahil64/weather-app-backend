@@ -5,9 +5,6 @@ const axios = require('axios');
 
 const app = express();
 
-// PORT dynamic रखना जरूरी है
-const PORT = process.env.PORT || 5000;
-
 // CORS में सिर्फ frontend Vercel URL allow करो
 app.use(cors({
   origin: ['https://sahil-weather.vercel.app/'], // Vercel frontend URL डालो
