@@ -9,7 +9,7 @@ const app = express();
 // Middleware
 app.use(express.json());
 app.use(cors({
-  origin: ['https://sahil-weather.vercel.app'], // यहाँ अपना Vercel frontend URL डालना
+  origin: ['https://weather-app-frontend-smoky.vercel.app'], // यहाँ अपना Vercel frontend URL डालना
   credentials: true
 }));
 
